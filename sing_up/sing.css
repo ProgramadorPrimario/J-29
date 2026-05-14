@@ -1,0 +1,22 @@
+.dd {
+    font-family: 'Segoe UI Light', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    text-align:  center;
+}
+
+.pp {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    color: #3a3a3a;
+    text-align:  center;
+    margin-top:-20px;
+    font-size: 22.5px;
+}
+
+.google {
+  background-color: #aaf58c;
+  height: 30px;
+  width: 10%;
+  border-radius: 50px;
+  margin-inline-start:  -0vw;
+  margin-block-start: -4%;
+}
