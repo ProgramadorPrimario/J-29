@@ -6,7 +6,7 @@
 }
 
 .squares {
-  display: inline-flex;
+  display: inline;
   justify-content: right;
   align-items: right;
   text-align: center;
@@ -81,6 +81,10 @@ h2 {
 
 .hello {
   display: inline-block;
+  margin: 0;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .data {
@@ -117,17 +121,24 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  width: 50vw;
-  height: 50vh;
-  gap: 1em;     
+  width: 50vw;   
+  height: 50vh; 
+  gap: 10px;
+  background-color: #e23b3b;
 }
 
 .cuadro {
-  background-color: #4CAF50; 
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   font-size: 1.5rem;
   font-weight: bold;
+  color: rgb(255, 0, 0);
+  background-color: #4CAF50;
+}
+
+.decosquares {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
