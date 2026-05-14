@@ -1,0 +1,133 @@
+.h0 {
+  line-height: 1.1em;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 5em;
+  margin-bottom: 0.2em;
+}
+
+.squares {
+  display: inline-flex;
+  justify-content: right;
+  align-items: right;
+  text-align: center;
+  width: 40em;
+  height: 100%;
+}
+
+.p1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: inline;
+  color: #2c2c2c;
+  font-size: 1.2em
+}
+
+
+.hnobr {
+  display: inline;
+  color: #3C84F4;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #0426ff4f;
+}
+
+.pnobr {
+  display: inline;
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.2em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.checklist {
+  list-style-image: url(assets/checkmark.png);
+  margin-top: 2em;
+}
+
+.samplebutton {
+  background-color: #3c84f4;
+  border-radius: 1em;
+  border-style: none;
+  color: white;
+  font-size: 1.2em;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 0.01em;
+  padding-top: 0.01em;
+  display: inline;
+  margin-right: 1em;
+}
+
+.samplebutton2 {
+  background-color: #EBEBEB;
+  border-radius: 1em;
+  font-size: 1.2em;
+  padding-right: 2em;
+  padding-left: 2em;
+  padding-bottom: 0.01em;
+  padding-top: 0.01em;
+  display: inline;
+  margin-right: 1em;
+
+}
+
+h2 {
+  font-weight: normal;
+  line-height: 0.5em;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2em;
+  margin-bottom: 0.2em;
+  display: inline;
+}
+
+.hello {
+  display: inline-block;
+}
+
+.data {
+  display: inline-flex;
+  margin-left: 1em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.resalted1 {
+  color: #3c84f4;
+  font-size: 2em;
+  margin-bottom:0%;
+  margin-top: 0%;
+}
+
+.resalted2 {
+  color: #ff8800;
+  font-size: 2em;
+  margin-bottom:0%;
+  margin-top: 0%;
+}
+
+.resalted3 {
+  color: #16ba00;
+  font-size: 2em;
+  margin-bottom:0%;
+  margin-top: 0%;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 50vw;
+  height: 50vh;
+  gap: 1em;     
+}
+
+.cuadro {
+  background-color: #4CAF50; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
