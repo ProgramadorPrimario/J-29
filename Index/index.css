@@ -127,8 +127,9 @@ header {
   width: 50vw;
   height: 50vh;
   gap: 10px;
-  margin-left: 10em;
-  margin-top: 1em;     
+  margin-left:70em;
+  margin-top: -90em;    
+  min-width: 350px; 
 }
 .cuadro {
   background-color: #4CAF50; 
