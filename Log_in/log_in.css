@@ -18,9 +18,12 @@ header{
     margin-right: 30%;
     font-size:x-large;
 }
- header span{
+.span2{
     color: #3C84F4;
     font-size: small;
+ }
+ .span1{
+    margin: 8rem;
  }
  
  form{
@@ -40,6 +43,10 @@ div input{
     flex-direction: row;
     gap: 15%;
 }
+.preguntas ::placeholder{
+    padding-left: 0.5rem;
+
+}
 
 form button{
     border-radius: 15px;
@@ -56,4 +63,36 @@ form button{
     margin-top: 10%;
     margin-left: 40%;
     margin-right: 40%;
+}
+
+.linea{
+    margin-top: 20%;
+    border: 1px solid #6821B4;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background: linear-gradient(90deg, white 50%, #6821B4 50%);
+}
+.linea{
+
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.p1{
+    margin-left: 38.5%;
+    margin-right: 3%; 
+}
+.p2{
+    margin-left: 3%;
+    margin-right: 38.5%;
+}
+
+footer{
+    margin-left: 20%;
+    right: 20%;
+    margin-top: 150px;
+}
+footer p a{
+    text-decoration: none;
+    color: #3C84F4;
 }
