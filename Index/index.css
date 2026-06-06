@@ -17,7 +17,7 @@ nav {
     padding: 0.4em 2em;
     border-bottom: 1px solid #cdcdcd;
     margin-top: -1.2em;
-    margin-bottom: -1.5em;
+    margin-bottom: -2.7em;
 }
 .logo {
     display: flex;
@@ -78,11 +78,22 @@ main {
     align-items:flex-start;
     padding: 0em;
 }
+.hero {
+    display: flex;
+    gap: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.hero-content {
+    gap: 1em;
+    flex: 1;
+}
 main h1 {
-    font-size: 6em;
+    font-size: 5em;
     color: #000000;
-    max-width: 50%;
+    max-width: 25em;
     font-weight: bolder;
+    margin-top: 0em;
 }
 h1 .highlight2 {
     color: var(--azul);
@@ -94,15 +105,15 @@ h1 .highlight2 {
     text-decoration-color: #3c83f4a6;
 }
 .text-hero {
-    font-size: 1.5em;
-    max-width: 50%;
-    margin-top: 0px;
+    font-size: 1.2em;
+    max-width: 25em;
+    margin-top: -2.2em;
     margin-bottom: 0em;
 }
 .highlight {
-    font-size: 1.5em;
+    font-size: 1.2em;
     max-width: 50%;
-    margin-top: -2px;
+    margin-top: 0em;
     color: #000000;
     font-weight: bold;
 }
@@ -119,4 +130,189 @@ h1 .highlight2 {
     border: none;
     font-size: 1.2em;
     cursor: pointer;
+}
+.begin:hover {
+    background-color: #2a6cd1;
+}
+.simu {
+    background-color: transparent;
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 0.7em;
+    border: 2px solid var(--azul);
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.simu:hover {
+    background-color:#cdcdcd;
+}
+.stats {
+    display: flex;
+    gap: 2em;
+    margin-top: -1em;
+}
+.stats-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stats-item-number1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--azul);
+}
+.stats-item-number2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--amarillo);
+}
+.stats-item-number3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--naranja);
+}
+.stats-item-txt {
+    font-size: 1.2em;
+    color: #4d4d4d;
+    margin-top: -1.4em;
+}
+.modules-squares {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    gap: 1em;
+    margin-top: 0;
+    max-width: 40%;
+    max-height: 5em;
+    margin-top: 3em;
+    margin-right: 5em;
+    border: 1px dashed #cdcdcd;
+    border-radius: 0.7em;
+    padding: 1em 1em;
+}
+.module {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1em 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.7em;
+}
+.module-icon-maths {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    background-color: #16ba004b;
+    border-radius: 0.3em;
+    padding: 0.2em;
+}
+.module-icon-english {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    background-color: #ffc1074b;
+    border-radius: 0.3em;
+    padding: 0.2em;
+}
+.module-icon-science {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    background-color: #ff88004b;
+    border-radius: 0.3em;
+    padding: 0.2em;
+}
+.module-icon-reading {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    background-color: #3c84f44b;
+    border-radius: 0.3em;
+    padding: 0.2em;
+}
+.module-title {
+    font-weight: bold;
+    margin-top: 0em;
+    text-align: left;
+    color: #000000;
+}
+.module-description {
+    font-size: 0.9em;
+    text-align: left;
+    color: #4d4d4d;
+    margin-top: -1em;
+}
+.module-button-math {
+    background-color: var(--naranja);
+    color: #fff;
+    padding: 0.2em 1em;
+    border-radius: 0.7em;
+    border: none;
+    font-size: 1em;
+    margin-top: 0em;
+    cursor: pointer;
+    align-self: center;
+}
+.module-button-english {
+    background-color: var(--amarillo);
+    color: #fff;
+    padding: 0.2em 1em;
+    border-radius: 0.7em;
+    border: none;
+    font-size: 1em;
+    margin-top: 0em;
+    cursor: pointer;
+    align-self: center;
+}
+.module-button-science {
+    background-color: var(--verde);
+    color: #fff;
+    padding: 0.2em 1em;
+    border-radius: 0.7em;
+    border: none;
+    font-size: 1em;
+    margin-top: 0em;
+    cursor: pointer;
+    align-self: center;
+}
+.module-button-reading {
+    background-color: var(--azul);
+    color: #fff;
+    padding: 0.2em 1em;
+    border-radius: 0.7em;
+    border: none;
+    font-size: 1em;
+    margin-top: 0em;
+    cursor: pointer;
+    align-self: center;
+}
+.module-button-math:hover {
+    background-color: #12a000;
+}
+.module-button-english:hover {
+    background-color: #e0a800;
+}
+.module-button-science:hover {
+    background-color: #12a000;
+}
+.module-button-reading:hover {
+    background-color: #2a6cd1;
+}
+.content {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    margin-top: 3em;
+    flex-direction: column;
+}
+.content-features {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+.content-features .features-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    border: 1px solid ;
+    border-radius: 0.7em;
+    max-width: 20em;
 }
