@@ -48,8 +48,19 @@
 
 .google:hover {
   cursor: pointer;
-  border: 2px solid #0061f3;  
+  border: 2px solid #6b12ba;  
 }
+
+.apple:hover {
+  cursor: pointer;
+  border: 2px solid #6b12ba;  
+}
+
+.github:hover {
+  cursor: pointer;
+  border: 2px solid #6b12ba;  
+}
+
 
 .google img {
   height: 40px;
@@ -105,7 +116,7 @@
   justify-content: center;
 
   width: 200px;
-  height: 60px;
+  height: 65px;
 
   background-color: #ffffff;
   border-radius: 50px;
@@ -115,7 +126,7 @@
 }
 
 .notion {
-  border-radius: 2px solid #0000;
+  border-radius: 1.6px solid #0000;
   margin-top: -5%;
 }
 
@@ -125,13 +136,18 @@
   
 }
 
+.notion:hover {
+  cursor: pointer;
+  border: 2px solid #0061f3;  
+}
+
 .purple {
   background: linear-gradient(to right, #6b12ba 0%, #6b12ba 100%);
   background-size:0% 100%;
   background-repeat: no-repeat;
   background-position: left;
   transition: background-size 0.5s ease;
-  border: 2px solid #6b12ba;
+  border: 1.6px solid #6b12ba;
   color: #000000;
   cursor: pointer;
   font-size: 26px;
