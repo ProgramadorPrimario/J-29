@@ -1,5 +1,4 @@
 .dd {
-  margin-block-start: 7%;
   font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 65px;
   text-align: center;
@@ -18,7 +17,7 @@
   display: flex;
   flex-direction: column;
   align-self:auto;
-  padding-left: 35%;
+  padding-left: 30%;
   gap: 32px;
   margin-block-start: 4%;
 }
@@ -27,7 +26,6 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  
 
   width: 200px;
   height: 65px;
@@ -43,7 +41,6 @@
 
 .google {
   border: 1.6px solid #000000;    
-  
 }
 
 .google:hover {
@@ -104,10 +101,10 @@
 .contenedor-1 {
   display: flex;
   flex-direction: column;
-  align-items:normal;
+  align-self: auto;
   padding-left: 55%;
   gap: 32px;
-  margin-block-start: -17%;
+  margin-block-start: -17.1%;
 }
 
 .notion, .vercel, .purple {
@@ -119,26 +116,38 @@
   height: 65px;
 
   background-color: #ffffff;
-  border-radius: 50px;
+
   cursor: pointer;
   box-sizing: border-box;
   padding: 0 16px;
+
+  
 }
 
 .notion {
-  border-radius: 1.6px solid #0000;
+  border-radius: 50px;
   margin-top: -5%;
+  border: 1.6px solid #000;
 }
 
 .notion img {
   width: 45px;
   height: auto;
-  
 }
 
 .notion:hover {
   cursor: pointer;
-  border: 2px solid #0061f3;  
+  border: 2px solid #6b12ba;  
+}
+
+.vercel {
+  border-radius: 50px;
+  border: 1.6px solid #000;
+}
+
+.vercel:hover {
+  cursor: pointer;
+  border: 2px solid #6b12ba;  
 }
 
 .purple {
@@ -146,7 +155,7 @@
   background-size:0% 100%;
   background-repeat: no-repeat;
   background-position: left;
-  transition: background-size 0.5s ease;
+  transition: background-size 0.8s ease;
   border: 1.6px solid #6b12ba;
   color: #000000;
   cursor: pointer;
@@ -158,8 +167,7 @@
 
 .purple:hover {
   background-size: 100% 100%;
-  color: white;
-  
+  color: white; 
 }
 
 .purple::before{
@@ -196,11 +204,11 @@ purple:hover::before {
 .barrita-morada {
   background-color: #ffffff;
   height: 15px;
-  width: 390px;
+  width: 340px;
   border-radius: 50px;
   margin-inline-start:  37vw;
   margin-block-start: 5%;
-  border: 2px solid #111111;
+  border: 1.6px solid #6b12ba;
   position: relative;
 }
 
@@ -217,7 +225,7 @@ purple:hover::before {
 }
 
 .re {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Roboto, Geneva, Verdana, sans-serif;
   font-size: 24px;
   font-weight: 400;
   margin-inline-start:  38vw;
@@ -228,15 +236,15 @@ purple:hover::before {
   font-family: 'Segoe UI', Roboto ,Geneva, Verdana, sans-serif;
   font-size: 24px;
   font-weight: 400;
-  margin-inline-start:  55vw;
-  margin-block-start: -4.1%;
+  margin-inline-start:  51vw;
+  margin-block-start: -4.2%;
 }
 
 .jeonn {
   font-family: 'Segoe UI', Roboto ,Geneva, Verdana, sans-serif;
   font-size: 12px;
   font-weight: 400;
-  margin-inline-start:  32.5vw;
+  margin-inline-start: 28vw;
   margin-block-start: 4%;
 }
 
@@ -260,6 +268,7 @@ purple:hover::before {
   font-family:Arial, Helvetica, sans-serif ;
   font-weight: 700; 
   margin-inline-start:  95vw;
+  margin-inline-start: -4%;
   transform: translateY(-45px);
 }
 

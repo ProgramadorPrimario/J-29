@@ -183,7 +183,7 @@ h1 .highlight2 {
     gap: 1em;
     margin-top: 0;
     max-width: 40%;
-    max-height: 5em;
+    max-height: 26em;
     margin-top: 3em;
     margin-right: 5em;
     border: 1px dashed #cdcdcd;
@@ -201,7 +201,7 @@ h1 .highlight2 {
 .module-icon-maths {
     font-size: 3em;
     margin-bottom: 0.5em;
-    background-color: #16ba004b;
+    background-color: #ba3b004b;
     border-radius: 0.3em;
     padding: 0.2em;
 }
@@ -215,7 +215,7 @@ h1 .highlight2 {
 .module-icon-science {
     font-size: 3em;
     margin-bottom: 0.5em;
-    background-color: #ff88004b;
+    background-color: #16ba004b;
     border-radius: 0.3em;
     padding: 0.2em;
 }
