@@ -1,0 +1,12 @@
+@import url('https://googleapis.com');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+    margin-top: 22%;
+    margin-left: 10%;
+    font-size: 20px;
+
+}
