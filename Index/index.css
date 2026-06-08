@@ -87,6 +87,7 @@ main {
 .hero-content {
     gap: 1em;
     flex: 1;
+    margin-left: 1.7em;
 }
 main h1 {
     font-size: 5em;
@@ -104,6 +105,8 @@ h1 .highlight2 {
     text-decoration-skip-ink: none;
     text-decoration-color: #3c83f4a6;
 }
+    
+
 .text-hero {
     font-size: 1.2em;
     max-width: 25em;
@@ -185,10 +188,11 @@ h1 .highlight2 {
     max-width: 40%;
     max-height: 26em;
     margin-top: 3em;
-    margin-right: 5em;
+    margin-right: 2em;
     border: 1px dashed #cdcdcd;
     border-radius: 0.7em;
     padding: 1em 1em;
+
 }
 .module {
     display: flex;
@@ -283,7 +287,7 @@ h1 .highlight2 {
     align-self: center;
 }
 .module-button-math:hover {
-    background-color: #12a000;
+    background-color: #a05500e3;
 }
 .module-button-english:hover {
     background-color: #e0a800;
