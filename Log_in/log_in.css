@@ -1,20 +1,25 @@
+@import url('https://googleapis.com');
+
 .dd {
-  font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 65px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
   text-align: center;
   line-height: 50px;
+  margin-top: 90px;
+  letter-spacing: 2px; 
 }
 
-.span2{
-    color: #3C84F4;
-    font-size: small;
+.span2 {
+  color: #3C84F4;
+  font-size: small;
 }
- 
-form{
-    align-items: center;
-    margin-top: 5%;
-    margin-left: 30%;
-    margin-right: 30%;
+
+form {
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 
@@ -36,24 +41,24 @@ form{
   background-size: 200% 100%;
   background-position: right bottom;
   transition: background-position 0.8s ease, color 0.8s ease;
-  
-  
-  background-image: 
-    linear-gradient(to right, #ffffff 50%, #000000 50%), 
-    linear-gradient(to right, #6b12ba 50%, transparent 50%); 
-  
+
+
+  background-image:
+    linear-gradient(to right, #ffffff 50%, #000000 50%),
+    linear-gradient(to right, #6b12ba 50%, transparent 50%);
+
 
   -webkit-background-clip: text, padding-box;
   background-clip: text, padding-box;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
 
   border: 1.6px solid #6b12ba;
   cursor: pointer;
   font-size: 26px;
   overflow: hidden;
   border-radius: 50px 45px 50px 45px;
-  padding: 10px 20px; 
-  
+  padding: 10px 20px;
+
 }
 
 .enter:hover {
@@ -64,52 +69,54 @@ form{
   width: 100%;
 }
 
-div input{
-    border-radius: 50px;
-    width: 300px;
-    height: 50px;
-    border: 1.6px solid #6821B4;
-    outline: none;              /* Quita el borde azul/negro por defecto del navegador */
-    transition: border-color 0.3s ease;
-    text-align: center;
-    padding: 10px 20px;
-    box-sizing: border-box;
+div input {
+  border-radius: 50px;
+  width: 300px;
+  height: 50px;
+  border: 1.6px solid #6821B4;
+  outline: none;
+  transition: border-color 0.3s ease;
+  text-align: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
 }
 
-div input:focus{
-    border-color: #4a0b82;
+div input:focus {
+  border-color: #4a0b82;
 }
 
-.preguntas{
-    display: flex;
-    flex-direction: row;
-    gap: 15%;
-    margin-top: 100px;
+.preguntas {
+  display: flex;
+  flex-direction: row;
+  gap: 15%;
+  margin-top: 100px;
 }
 
-.preguntas #Username::placeholder{
+.preguntas #Username::placeholder {
   position: relative;
   padding-right: 18px;
+  color: rgb(168, 168, 168);
 }
 
-.preguntas #Password::placeholder{
+.preguntas #Password::placeholder {
   position: relative;
   padding-right: 18px;
+  color: rgb(168, 168, 168);
 }
 
 .preguntas:focus {
-    border-color: #4a0b82;
+  border-color: #4a0b82;
 }
 
-.preguntas ::placeholder{
-    padding-left: 2rem;
+.preguntas ::placeholder {
+  padding-left: 2rem;
 }
 
 
-form button{
-    margin-top: 20%;
-    margin-left: 32%;
-    margin-right: 40%;
+form button {
+  margin-top: 20%;
+  margin-left: 32%;
+  margin-right: 40%;
 }
 
 .barrita-morada {
@@ -117,21 +124,22 @@ form button{
   height: 15px;
   width: 340px;
   border-radius: 50px;
-  margin-inline-start:  37vw;
+  margin-inline-start: 37vw;
   margin-block-start: 5%;
   border: 1.6px solid #6b12ba;
   position: relative;
 }
 
-.barrita-morada::before{
+.barrita-morada::before {
   content: "";
+  margin-left: 50%;
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%;                
+  width: 50%;
   height: 100%;
-  background-color: #6b12ba;   
-  border-radius: 50px 45px 45px 50px; 
+  background-color: #6b12ba;
+  border-radius: 50px 45px 45px 50px;
 
 }
 
@@ -139,20 +147,20 @@ form button{
   font-family: 'Segoe UI', Roboto, Geneva, Verdana, sans-serif;
   font-size: 24px;
   font-weight: 400;
-  margin-inline-start:  38vw;
+  margin-inline-start: 38vw;
   margin-block-start: 0%;
 }
 
 .imi {
-  font-family: 'Segoe UI', Roboto ,Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Roboto, Geneva, Verdana, sans-serif;
   font-size: 24px;
   font-weight: 400;
-  margin-inline-start:  51vw;
+  margin-inline-start: 51vw;
   margin-block-start: -4.2%;
 }
 
 .jeonn {
-  font-family: 'Segoe UI', Roboto ,Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Roboto, Geneva, Verdana, sans-serif;
   font-size: 12px;
   font-weight: 400;
   margin-inline-start: 28vw;
@@ -160,10 +168,10 @@ form button{
 }
 
 .azul {
-  font-family: 'Segoe UI', Roboto ,Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Roboto, Geneva, Verdana, sans-serif;
   font-size: 12px;
   font-weight: 400;
-  margin-inline-start:  1.5vw;
+  margin-inline-start: 1.5vw;
   margin-block-start: 4%;
   color: #4285f4;
 }
