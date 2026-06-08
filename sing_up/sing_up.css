@@ -151,32 +151,31 @@
 }
 
 .purple {
-  background: linear-gradient(to right, #6b12ba 0%, #6b12ba 100%);
-  background-size:0% 100%;
-  background-repeat: no-repeat;
-  background-position: left;
-  transition: background-size 0.8s ease;
+  background: linear-gradient(to right, #6b12ba 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: background-position 0.8s ease, color 0.8s ease;
+  
+  
+  background-image: 
+    linear-gradient(to right, #ffffff 50%, #000000 50%), 
+    linear-gradient(to right, #6b12ba 50%, transparent 50%); 
+  
+
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  -webkit-text-fill-color: transparent; 
+
   border: 1.6px solid #6b12ba;
-  color: #000000;
   cursor: pointer;
   font-size: 26px;
-  background-color: white;
   overflow: hidden;
   border-radius: 50px 45px 50px 45px;
+  padding: 10px 20px; 
 }
 
 .purple:hover {
-  background-size: 100% 100%;
-  color: white; 
-}
-
-.purple::before{
-  width: 50%;                
-  height: 100%;
-  background-color: #6b12ba;   
-  border-radius: 50px 45px ;
-  border-radius: inherit;
-  z-index: -1; 
+  background-position: left bottom;
 }
 
 purple:hover::before {
