@@ -4,7 +4,9 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
+body {
+    overflow-y: hidden; /* Oculta por completo la barra vertical */
+}
 :root {
     --naranja: #FF8800;
     --azul: #3C84F4;
@@ -15,67 +17,76 @@
 p {
     color: #4d4d4d;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.4em 2em;
+    padding: 0 2em; 
     border-bottom: 1px solid #cdcdcd;
-    margin-top: -1.2em;
-    margin-bottom: -2.7em;
-    background-color: #c56f6f;
-    height: 50px;
+    height: 65px;
+    width: 100%;
+    box-sizing: border-box; 
+    margin: 0;
 }
+
 .logo {
     display: flex;
+    align-items: center; 
     gap: 10px;
     color: #000000;
-    font-size: 1.5em;
-    padding-bottom: 0.5em;
-    padding-top: 0;
-    margin-bottom: 0em;
+    font-size: 25px;
+    margin-left: 10px;
 }
+
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     list-style: none;
-    margin-bottom: -1em;
-    margin-top: 0;
-    padding: 0;
+    font-size: 15px;
+    margin-left: 20px;
 }
+
 .nav-links li a {
-    color: #4d4d4d;
+    color: #000000a7;
     text-decoration: none;
-    font-size: 1.2em;
-    padding: 0;
 }
+
 .nav-links li a:hover {
     color: #000000;
 }
+
 .auth-links {
     display: flex;
+    align-items: center;
     gap: 15px;
-    margin-bottom: -1em;
-    margin-top: 0;
-    padding: 0;
+    font-size: 15px;
+    margin-right: -300px;
 }
+
 .login {
     color: #4d4d4d;
-    padding: 10px 20px;
     text-decoration: none;
-    font-size: 1.2em;
+    padding: 5px 10px; 
 }
+
 .login:hover {
     color: #000000;
 }
+
 .signup {
-    background-color: var(--azul);
+    background-color: var(--azul, #0056b3);
     color: #fff;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 0.7em;
     text-decoration: none;
-    font-size: 1.2em;
 }
+
 .signup:hover {
     background-color: #2a6cd1;
 }
@@ -90,7 +101,7 @@ main {
     gap: 2em;
     margin-top: 3em;
     margin-bottom: 3em;
-
+    margin-left: 10px;
 }
 .hero-content {
     gap: 1em;
