@@ -269,8 +269,34 @@ h1 .highlight2::after {
     width: 260px;
     height: 180px;
     font-family: "poppins", sans-serif;
+    position: relative;
 }
+.module::before{
+    content: "";
+    position: absolute;
+    top: -4px; 
+    
+    left: 0;
+    width: 100%;
+    height: 8px; 
+    border-top: 15px;
+    
+    background-color: #0426ff;
 
+    opacity: 0;
+    transform: scaleX(0.8);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    
+    /* Aseguramos que las esquinas inferiores se queden totalmente rectas (en punta) */
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.module:hover::before{
+    opacity: 1;
+    transform: scaleX(1);
+}
 .module-icon-maths {
     font-size: 3em;
     margin-bottom: 0.5em;
