@@ -266,8 +266,9 @@ h1 .highlight2::after {
     padding: 1em 1em;
     border: 1px solid #ccc;
     border-radius: 0.7em;
-    width: 280px;
-    height: 200px;
+    width: 260px;
+    height: 180px;
+    font-family: "poppins", sans-serif;
 }
 
 .module-icon-maths {
@@ -276,6 +277,7 @@ h1 .highlight2::after {
     background-color: #ba3b004b;
     border-radius: 0.3em;
     padding: 0.2em;
+    border: 2px solid #c24d165d;
 }
 .module-icon-english {
     font-size: 3em;
@@ -283,6 +285,7 @@ h1 .highlight2::after {
     background-color: #ffc1074b;
     border-radius: 0.3em;
     padding: 0.2em;
+    border: 2px solid #ffc1074b;
 }
 .module-icon-science {
     font-size: 3em;
@@ -290,6 +293,7 @@ h1 .highlight2::after {
     background-color: #16ba004b;
     border-radius: 0.3em;
     padding: 0.2em;
+    border: 2px solid #16ba004b;
 }
 .module-icon-reading {
     font-size: 3em;
@@ -297,18 +301,19 @@ h1 .highlight2::after {
     background-color: #3c84f44b;
     border-radius: 0.3em;
     padding: 0.2em;
+    border: 2px solid #3c84f44b;
 }
 .module-title {
     font-weight: bold;
-    margin-top: 0em;
+    margin-top: -1em;
     text-align: left;
     color: #000000;
 }
 .module-description {
-    font-size: 0.9em;
+    font-size: 12px;
     text-align: left;
     color: #4d4d4d;
-    margin-top: -1em;
+    margin-top: -0.5em;
 }
 .module-button-math {
     background-color: var(--naranja);
@@ -316,10 +321,11 @@ h1 .highlight2::after {
     padding: 0.2em 1em;
     border-radius: 0.7em;
     border: none;
-    font-size: 1em;
-    margin-top: 0em;
+    font-size: 15px;
+    margin-top: 1.2em;
     cursor: pointer;
     align-self: center;
+    width: 118px;
 }
 .module-button-english {
     background-color: var(--amarillo);
@@ -327,10 +333,11 @@ h1 .highlight2::after {
     padding: 0.2em 1em;
     border-radius: 0.7em;
     border: none;
-    font-size: 1em;
-    margin-top: 0em;
+    font-size: 15px;
+    margin-top: 1.2em;
     cursor: pointer;
     align-self: center;
+    width: 118px;
 }
 .module-button-science {
     background-color: var(--verde);
@@ -338,10 +345,11 @@ h1 .highlight2::after {
     padding: 0.2em 1em;
     border-radius: 0.7em;
     border: none;
-    font-size: 1em;
-    margin-top: 0em;
+    font-size: 15px;
+    margin-top: 1.2em;
     cursor: pointer;
     align-self: center;
+    width: 118px;
 }
 .module-button-reading {
     background-color: var(--azul);
@@ -349,10 +357,11 @@ h1 .highlight2::after {
     padding: 0.2em 1em;
     border-radius: 0.7em;
     border: none;
-    font-size: 1em;
-    margin-top: 0em;
+    font-size: 15px;
+    margin-top: 1.2em;
     cursor: pointer;
     align-self: center;
+    width: 118px;
 }
 .module-button-math:hover {
     background-color: #a05500e3;
