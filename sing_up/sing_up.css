@@ -1,6 +1,6 @@
 @import url('https://googleapis.com');
 
-*{
+* {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -11,7 +11,7 @@
   text-align: center;
   line-height: 50px;
   margin-top: 90px;
-  letter-spacing: 2px; 
+  letter-spacing: 2px;
 }
 
 .ii {
@@ -24,13 +24,15 @@
 .contenedor {
   display: flex;
   flex-direction: column;
-  align-self:auto;
+  align-self: auto;
   padding-left: 30%;
   gap: 32px;
   margin-block-start: 4%;
 }
 
-.google, .github, .apple{
+.google,
+.github,
+.apple {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -44,26 +46,26 @@
   box-sizing: border-box;
   padding: 0 16px;
 
-  margin-left: 20px;  
+  margin-left: 20px;
 }
 
 .google {
-  border: 1.6px solid #000000; 
+  border: 1.6px solid #000000;
 }
 
 .google:hover {
   cursor: pointer;
-  border: 2px solid #6b12ba;  
+  border: 2px solid #6b12ba;
 }
 
 .apple:hover {
   cursor: pointer;
-  border: 2px solid #6b12ba;  
+  border: 2px solid #6b12ba;
 }
 
 .github:hover {
   cursor: pointer;
-  border: 2px solid #6b12ba;  
+  border: 2px solid #6b12ba;
 }
 
 
@@ -112,7 +114,9 @@
   margin-block-start: -16%;
 }
 
-.notion, .vercel, .purple {
+.notion,
+.vercel,
+.purple {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -143,7 +147,7 @@
 
 .notion:hover {
   cursor: pointer;
-  border: 2px solid #6b12ba;  
+  border: 2px solid #6b12ba;
 }
 
 .vercel {
@@ -153,7 +157,7 @@
 
 .vercel:hover {
   cursor: pointer;
-  border: 2px solid #6b12ba;  
+  border: 2px solid #6b12ba;
 }
 
 .purple {
@@ -161,23 +165,23 @@
   background-size: 200% 100%;
   background-position: right bottom;
   transition: background-position 0.8s ease, color 0.8s ease;
-  
-  
-  background-image: 
-    linear-gradient(to right, #ffffff 50%, #000000 50%), 
-    linear-gradient(to right, #6b12ba 50%, transparent 50%); 
-  
+
+
+  background-image:
+    linear-gradient(to right, #ffffff 50%, #000000 50%),
+    linear-gradient(to right, #6b12ba 50%, transparent 50%);
+
 
   -webkit-background-clip: text, padding-box;
   background-clip: text, padding-box;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
 
   border: 1.6px solid #6b12ba;
   cursor: pointer;
   font-size: 26px;
   overflow: hidden;
   border-radius: 50px 45px 50px 45px;
-  padding: 10px 20px; 
+  padding: 10px 20px;
 }
 
 .purple:hover {
@@ -203,7 +207,7 @@
   color: #000000;
   font-weight: 500;
   margin-block-start: -10px;
-  margin-left: -4px; 
+  margin-left: -4px;
 }
 
 
